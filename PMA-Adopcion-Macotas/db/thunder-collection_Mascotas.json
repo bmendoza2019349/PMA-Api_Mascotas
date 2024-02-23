@@ -1,0 +1,89 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Mascotas",
+    "dateExported": "2024-02-23T01:24:37.191Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "50abacb1-2932-4088-9c36-4cab322da6fc",
+            "colId": "b53e016f-8da4-40c8-88cb-51aab4285e12",
+            "containerId": "",
+            "name": "mascotasPost",
+            "url": "http://localhost:3000/api/mascotas",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-02-09T16:40:05.054Z",
+            "modified": "2024-02-23T00:24:46.794Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nombre\": \"mascota 1\",\n   \"especie\": \"perro\",\n   \"raza\": \"french\", \n   \"fechaNacimiento\": \"12/02/2022\", \n   \"residencia\": \"guatemala\", \n   \"sexo\": \"masculino\", \n   \"color\": \"cafe\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "22772814-fd7d-4c91-8d88-263602db8154",
+            "colId": "b53e016f-8da4-40c8-88cb-51aab4285e12",
+            "containerId": "",
+            "name": "mascotaGet",
+            "url": "http://localhost:3000/api/mascotas",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-02-09T17:05:33.218Z",
+            "modified": "2024-02-09T17:05:48.535Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "963cdf84-0964-498d-93c4-81ef6bf59ab8",
+            "colId": "b53e016f-8da4-40c8-88cb-51aab4285e12",
+            "containerId": "",
+            "name": "getMascotaById",
+            "url": "http://localhost:3000/api/mascotas/65d7e6739fd4883c7d76d078",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-02-09T17:12:09.813Z",
+            "modified": "2024-02-23T00:28:38.635Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "cc93cf4a-5e2a-4b5d-9198-447436ee4c24",
+            "colId": "b53e016f-8da4-40c8-88cb-51aab4285e12",
+            "containerId": "",
+            "name": "mascotaPut",
+            "url": "http://localhost:3000/api/mascotas/65d7e6739fd4883c7d76d078",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2024-02-09T17:41:09.387Z",
+            "modified": "2024-02-23T00:28:52.991Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nombre\": \"mascota prueba\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "52950af3-bd7b-4d1a-b10c-2cb47a6229dd",
+            "colId": "b53e016f-8da4-40c8-88cb-51aab4285e12",
+            "containerId": "",
+            "name": "mascotaDelete",
+            "url": "http://localhost:3000/api/mascotas/65d7e6739fd4883c7d76d078",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2024-02-09T17:45:22.625Z",
+            "modified": "2024-02-23T00:29:01.935Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}

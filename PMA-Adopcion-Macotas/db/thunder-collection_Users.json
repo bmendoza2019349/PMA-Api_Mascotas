@@ -1,0 +1,80 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Users",
+    "dateExported": "2024-02-23T01:24:27.721Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "547c2d28-1054-4198-a175-3b91b104f229",
+            "colId": "e98edeff-6851-4fb2-b0f6-b8cde650a190",
+            "containerId": "",
+            "name": "userPost",
+            "url": "http://localhost:3000/api/usuarios",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-02-23T00:30:48.311Z",
+            "modified": "2024-02-23T00:34:31.528Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nombre\": \"prueba1\",\n    \"correo\": \"prueba1@kinal.edu.gt\",\n    \"password\": \"1234\",\n    \"role\": \"ADMIN_ROLE\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "d87ecb3d-9143-45e7-a5bf-a1c605e9091d",
+            "colId": "e98edeff-6851-4fb2-b0f6-b8cde650a190",
+            "containerId": "",
+            "name": "usersGet",
+            "url": "",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-02-23T01:05:04.835Z",
+            "modified": "2024-02-23T01:05:04.835Z",
+            "headers": []
+        },
+        {
+            "_id": "b0c0231a-786a-4971-8a3a-bf953ae09205",
+            "colId": "e98edeff-6851-4fb2-b0f6-b8cde650a190",
+            "containerId": "",
+            "name": "userGetById",
+            "url": "",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-02-23T01:06:34.897Z",
+            "modified": "2024-02-23T01:06:34.897Z",
+            "headers": []
+        },
+        {
+            "_id": "e7ba2759-498c-4b15-8a4f-a2c0ed91b64e",
+            "colId": "e98edeff-6851-4fb2-b0f6-b8cde650a190",
+            "containerId": "",
+            "name": "userPut",
+            "url": "http://localhost:3000/api/usuarios/",
+            "method": "PUT",
+            "sortNum": 50000,
+            "created": "2024-02-23T01:07:58.423Z",
+            "modified": "2024-02-23T01:09:09.441Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "45465ca6-147b-4037-a112-4c33f9df1dd1",
+            "colId": "e98edeff-6851-4fb2-b0f6-b8cde650a190",
+            "containerId": "",
+            "name": "userDelete",
+            "url": "http://localhost:3000/api/usuarios/",
+            "method": "DELETE",
+            "sortNum": 60000,
+            "created": "2024-02-23T01:08:14.228Z",
+            "modified": "2024-02-23T01:09:13.114Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
