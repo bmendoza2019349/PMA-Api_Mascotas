@@ -1,7 +1,7 @@
 {
     "client": "Thunder Client",
     "collectionName": "Users",
-    "dateExported": "2024-02-23T01:24:27.721Z",
+    "dateExported": "2024-02-25T01:13:02.170Z",
     "version": "1.1",
     "folders": [],
     "requests": [
@@ -29,24 +29,28 @@
             "colId": "e98edeff-6851-4fb2-b0f6-b8cde650a190",
             "containerId": "",
             "name": "usersGet",
-            "url": "",
+            "url": "http://localhost:3000/api/usuarios",
             "method": "GET",
             "sortNum": 20000,
             "created": "2024-02-23T01:05:04.835Z",
-            "modified": "2024-02-23T01:05:04.835Z",
-            "headers": []
+            "modified": "2024-02-25T01:11:32.211Z",
+            "headers": [],
+            "params": [],
+            "tests": []
         },
         {
             "_id": "b0c0231a-786a-4971-8a3a-bf953ae09205",
             "colId": "e98edeff-6851-4fb2-b0f6-b8cde650a190",
             "containerId": "",
             "name": "userGetById",
-            "url": "",
+            "url": "http://localhost:3000/api/usuarios",
             "method": "GET",
             "sortNum": 30000,
             "created": "2024-02-23T01:06:34.897Z",
-            "modified": "2024-02-23T01:06:34.897Z",
-            "headers": []
+            "modified": "2024-02-25T01:11:36.782Z",
+            "headers": [],
+            "params": [],
+            "tests": []
         },
         {
             "_id": "e7ba2759-498c-4b15-8a4f-a2c0ed91b64e",
